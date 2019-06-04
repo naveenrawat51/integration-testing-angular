@@ -1,0 +1,13 @@
+<div class="Countr">
+  <i  
+      class="glyphicon glyphicon-menu-up Count-button"
+      [class.highlighted]="myCount == 1" 
+      (click)="upCount()"> IncreaseCount</i>
+      
+  <span class="Count-count" style="margin-left: 30px; margin-right: 30px;">{{ totalCounts }}</span>
+  
+  <i  
+      class="glyphicon glyphicon-menu-down Count-button"
+      [class.highlighted]="myCount == -1" 
+      (click)="downCount()"> DecreaseCount</i>
+</div>

@@ -1,0 +1,28 @@
+.Countr {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    margin-top: 40px;
+}
+
+.Count-count {
+    font-size: 1.2em;
+}
+
+.Count-button {
+    cursor: pointer;
+}
+
+.highlighted {
+    font-weight: bold;
+    color: orange;
+    background-color: green;
+}
+
+i {
+    display: inline; 
+    padding: 10px 10px; 
+    background-color: blueviolet; 
+    color: white; 
+    
+}

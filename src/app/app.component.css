@@ -1,0 +1,10 @@
+nav {
+    text-align: center;
+    padding: 40px;
+}
+nav a {
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid green;
+}
